@@ -13,6 +13,10 @@
           <p>{{ produto.descricao }}</p>
         </router-link>
       </div>
+      <ProdutosPaginar
+        :produtosTotal="produtosTotal"
+        :produtosPorPagina="produtosPorPagina"
+      />
     </div>
     <div v-else-if="produtos && produtos.length === 0">
       <p class="sem-resultados">
@@ -25,13 +29,18 @@
 <script>
 import { api } from '@/services.js';
 import { serialize } from '@/helpers.js';
+import ProdutosPaginar from '@/components/ProdutosPaginar';
 
 export default {
   name: 'ProdutosLista',
+  components: {
+    ProdutosPaginar,
+  },
   data() {
     return {
       produtos: null,
       produtosPorPagina: 9,
+      produtosTotal: 0,
     }
   },
   computed: {
@@ -43,6 +52,7 @@ export default {
   methods: {
     getProdutos() {
       api.get(this.url).then(response => {
+        this.produtosTotal = Number(response.headers['x-total-count']);
         this.produtos = response.data;
       })
     }
