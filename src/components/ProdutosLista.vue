@@ -1,7 +1,7 @@
 <template>
   <section class="produtos-container">
     <div v-if="produtos && produtos.length > 0" class="produtos">
-      <div v-for="produto in produtos" :key="produto.id" class="produto">
+      <div v-for="(produto, index) in produtos" :key="index" class="produto">
         <router-link to="/">
           <img
             v-if="produto.fotos"
