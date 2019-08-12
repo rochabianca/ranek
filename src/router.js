@@ -7,6 +7,9 @@ Vue.use(Router);
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
+  scrollBehavior() {
+    return window.scrollTo({ top: 0, behavior: 'smooth' });
+  },
   routes: [
     {
       path: '/',
