@@ -1,12 +1,18 @@
 <template>
   <div>
-    login criar
+    <h2>Crie a sua conta</h2>
+    <button @click="criar = true">Criar Conta</button>
+    <UsuarioForm />
   </div>
 </template>
 
 <script>
+import UsuarioForm from '@/components/UsuarioForm'
 export default {
-  name: 'LoginCriar'
+  name: 'LoginCriar',
+  components: {
+    UsuarioForm,
+  }
 }
 </script>
 
