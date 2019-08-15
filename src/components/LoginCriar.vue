@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import UsuarioForm from '@/components/UsuarioForm'
+import UsuarioForm from '@/components/UsuarioForm.vue'
 export default {
   name: 'LoginCriar',
   components: {
