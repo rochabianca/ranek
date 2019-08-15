@@ -10,6 +10,17 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "bianca@origamid.com",
+      "email": "bianca@origamid.com",
+      "nome": "Bianca Rocha",
+      "senha": "123",
+      "rua": "Rua Ali Perto",
+      "cep": "12345678",
+      "numero": "25",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro"
     }
   ],
   "produto": [
