@@ -5,7 +5,9 @@
     <h2>Seus Produtos</h2>
     <transition-group v-if="usuario_produtos" name="list" tag="ul">
       <li v-for="(produto, index) in usuario_produtos" :key="index">
-        <ProdutoItem :produto="produto" />
+        <ProdutoItem :produto="produto">
+          <p>{{ produto.descricao }}</p>
+        </ProdutoItem>
       </li>
     </transition-group>
   </section>
@@ -39,5 +41,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+h2 {
+  margin-bottom: 20px;
+}
 </style>
