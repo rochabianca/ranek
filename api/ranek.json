@@ -911,6 +911,22 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "nome": "Tablet",
+      "preco": "345",
+      "descricao": "esse é um tablet novo",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "l0xuScp"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "345",
+      "descricao": "essetbm",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "HXsL9dk"
     }
   ]
 }
