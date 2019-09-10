@@ -50,6 +50,9 @@ export default {
       base: "usuario",
       mutation: 'UPDATE_USUARIO',
     }),
+    mostrarDadosLogin() {
+      return '';
+    }
   },
   methods: {
     preencherCep() {
