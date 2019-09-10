@@ -45,6 +45,18 @@
       "bairro": "Botafogo",
       "cidade": "Rio de Janeiro",
       "estado": "RJ"
+    },
+    {
+      "id": "bianca.rocha@bliive.com",
+      "nome": "Bianca Rocha",
+      "email": "bianca.rocha@bliive.com",
+      "senha": "123456",
+      "cep": "22290160",
+      "rua": "Rua Lauro Muller",
+      "numero": "150",
+      "bairro": "Botafogo",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
     }
   ],
   "produto": [
