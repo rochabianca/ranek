@@ -1,4 +1,50 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "bianca@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "tablet",
+        "nome": "Tablet",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1399",
+        "vendido": "false",
+        "descricao": "Esse é um novo tablet.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "MarianaSnow@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "smartphone",
+        "nome": "Smartphone",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "123456",
+        "rua": "Rua Lauro Muller",
+        "numero": "100",
+        "bairro": "Botafogo",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 2
+    }
+  ],
   "usuario": [
     {
       "id": "andre@origamid.com",
@@ -54,6 +100,18 @@
       "cep": "22290160",
       "rua": "Rua Lauro Muller",
       "numero": "150",
+      "bairro": "Botafogo",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "id": "MarianaSnow@origamid.com",
+      "nome": "Mariana das neves",
+      "email": "MarianaSnow@origamid.com",
+      "senha": "123456",
+      "cep": "123456",
+      "rua": "Rua Lauro Muller",
+      "numero": "100",
       "bairro": "Botafogo",
       "cidade": "Rio de Janeiro",
       "estado": "RJ"
